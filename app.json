@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/logs1/logs1",
+    "pages/logs2/logs2",
+    "pages/logs3/logs3",
+    "pages/condition/condition",
+    "pages/chat/chat",
+    "pages/emotion/emotion"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f0e68c",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#a52a2a",
+    "borderStyle": "black",
+    "backgroundColor": "#f0e68c",
+    "list": [
+      {
+        "selectedIconPath": "images/分类.png",
+        "iconPath": "images/分类(1).png",
+        "pagePath": "pages/index/index",
+        "text": "开门"
+      },
+      {
+        "selectedIconPath": "images/生活.png",
+        "iconPath": "images/生活(1).png",
+        "pagePath": "pages/condition/condition",
+        "text": "宿舍状态"
+      },
+      {
+        "iconPath": "images/首页(1).png",
+        "selectedIconPath": "images/首页.png",
+        "pagePath": "pages/welcome/welcome",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/消息.png",
+        "iconPath": "images/消息(1).png",
+        "pagePath": "pages/chat/chat",
+        "text": "私信"
+      },
+      {
+        "selectedIconPath": "images/亲子.png",
+        "iconPath": "images/亲子(1).png",
+        "pagePath": "pages/emotion/emotion",
+        "text": "迎客心情站"
+      }
+    
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
