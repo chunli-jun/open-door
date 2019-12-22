@@ -1,0 +1,18 @@
+/* pages/logs3/logs3.wxss */
+.bg{
+  position:fixed;
+  top:0;
+  left:0;
+  height:110%;
+  width:100%;
+background-size:cover;
+z-index:-1;
+}
+.bg image{
+  width:400px;
+  height:600px;}
+   .abc{
+    top:50;
+  margin-top:20px;
+    size:40px
+  }

@@ -1,0 +1,17 @@
+.slide-image{
+  background-color:black;
+  height: 80vh;
+  width:90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.jitang{
+  color: green;
+  text-align: center;
+  margin-top: 40px
+}
+.swiper{
+  height:80vh
+}

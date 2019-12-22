@@ -1,0 +1,25 @@
+<swiper indicator-dots="{{indicatorDots}}"  
+           autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true" class="swiper">  
+         <block wx:for="{{imgUrls}}">  
+           <swiper-item>  
+              <navigator url="{{item.link}}" hover-class="navigator-hover">  
+               <image src="{{item.url}}" class="slide-image" width="300" height="500"/>  
+              </navigator>  
+           </swiper-item>  
+         </block>  
+ </swiper>
+
+ <view class="jitang">
+ <view>记得早先少年时 </view>
+ <view>大家诚诚恳恳 </view>
+<view>说一句 是一句 </view>
+<view>清早上火车站 </view>
+<view>长街黑暗无行人 </view>
+<view>卖豆浆的小店冒着热气 </view>
+<view>从前的日色变得慢</view>
+<view>车，马，邮件都慢 </view>
+<view>一生只够爱一个人</view>
+<view>从前的锁也好看 </view>
+<view>钥匙精美有样子</view>
+<view>你锁了 人家就懂了</view>
+</view>

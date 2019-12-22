@@ -1,0 +1,10 @@
+<view class="obg" style="opacity:{{0.4}}">
+ <image class="obg-image" src="../../images/img-c7fcecbe45c8b8dd230b67cc382fdd0a.jpg"></image>
+</view>
+<view class="text">小姐姐们在干啥呢</view>
+<view>
+ <form bindsubmit="formSubmit">
+   <input name="reply" class="input"placeholder="在此输入"></input>
+   <button  form-type="submit" class="huifu">偷偷告诉你</button> 
+ </form>
+</view>

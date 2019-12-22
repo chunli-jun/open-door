@@ -1,0 +1,14 @@
+{
+  "usingComponents": {},
+  
+    "pages": [
+      "pages/index/index",
+      "pages/detail/detail"
+    ],
+    "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#e14848"
+
+    }
+  
+}

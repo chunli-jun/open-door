@@ -1,0 +1,17 @@
+
+<view class="container">
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+    <text class="user-motto">{{answer}}</text>
+  </view>
+</view>
+<view class="bg" style="opacity:{{0.3}}">
+  <image class="background" src="../../images/img-5271b163544da615933a91144c105b41.jpg"></image>
+</view>
+<view class="container">
+  </view>
+<view><form bindsubmit="formSubmit">
+<input name="reply" class="input"placeholder="在此输入... "></input>
+<button  form-type="submit" class="huifu">回复</button> 
+</form>
+</view>

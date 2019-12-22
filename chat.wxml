@@ -1,0 +1,20 @@
+<view class="xiaoxi" >客人语 ♪(* ´з)(ε｀ *)啵~♪</view>
+<view class="container">
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+    <text class="user-motto">{{answer}}</text>
+  </view>
+</view>
+
+<view class="bg" style="opacity:{{0.4}}">
+ <image class="bg-image" src="../../images/img-e28a41f90218378b2c18f8df8fd5f0df.jpg"></image>
+</view>
+
+<view class="container"></view>
+
+<view>
+ <form bindsubmit="formSubmit">
+   <input name="chat1" class="input" placeholder="此处输入......"></input>
+   <button  form-type="submit" class="huifu">回复</button> 
+ </form>
+</view>
